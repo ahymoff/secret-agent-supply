@@ -5,24 +5,39 @@ html {
 }
 
 .container {
-  display: flex;
   width: 960px;
+}
+
+.align-center {
+  display: flex;
   align-items: center;
 }
 
-.center {
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
 
+.spc-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pos-top {
+  position: relative;
+  top: 2.32rem;
+}
+
+.black {
+  background-color: black;
 }
 
 /* Header */
 
 header {
-  display: flex;
   position: fixed;
-  background-color: black;
   width: 100%;
   z-index: 999;
-  justify-content: center;
 }
 
 .logo img {
@@ -30,43 +45,31 @@ header {
   margin-left: 0.5rem;
 }
 
-header p {
+header a {
   font-size: 1rem;
   margin: 0.66rem 0 0.66rem 1rem;
   text-transform: uppercase;
+  text-decoration: none;
+  color: white;
 }
 
 /* Hero */
 
 .hero {
-  background-image: url(/Users/AaronHymoff/Desktop/Projects/Codecademy/05-Responsive-Web/01-Secret-Agent-Supply/Resources/Images/moto.jpeg);
+  background: url(/Users/AaronHymoff/Desktop/Projects/Codecademy/05-Responsive-Web/01-Secret-Agent-Supply/Resources/Images/moto.jpeg) no-repeat center;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
   height: 25rem;
   width: 100%;
-  position: relative;
-  top: 2.32rem;
-  justify-content: center;
-}
 
-.hero-container {
-  width: 960px;
 }
 
 .hero-text-box {
-  width: 25rem;
-  height: 9.5rem;
-  background-color: black;
+  width: 20rem;
   display: flex;
   flex-direction: column;
   position: relative;
   top: 9rem;
-}
-
-.text {
-  margin: 2rem 3rem;
+  padding: 2rem 3rem;
 }
 
 .text p {
@@ -85,62 +88,32 @@ header p {
 /* Nav */
 
 nav {
-  display: flex;
   background-color: firebrick;
   width: 100%;
-  position: relative;
-  top: 2.32rem;
-  justify-content: center;
 }
 
-.nav-container {
-  display: flex;
-  width: 960px;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.nav {
-  
-}
-
-nav span {
+nav a {
   display: flex;
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
+  text-decoration: none;
+  color: white;
 }
 
 /* Content */
 
-section {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  top: 2.32rem;
-}
-
-.main-content-container {
-  width: 960px;
-}
-
 .content-container {
   margin-top: 3rem;
-  display: flex;
-  justify-content: space-between;
   margin-bottom: 3rem;
 }
 
 .content-box {
   border: 4px solid black;
-  display: flex;
-  justify-content: center;
   flex-direction: column;
   width: 30%;
 }
 
 .content-box-image {
-  display: flex;
-  justify-content: center;
   margin: 2rem auto;
 }
 
@@ -151,8 +124,6 @@ section {
 }
 
 .glasses-content-box-image {
-  display: flex;
-  justify-content: center;
   margin: 4.25rem auto;
 }
 
@@ -162,14 +133,7 @@ section {
   max-width: 100%;
 }
 
-.content-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-}
-
-.content-text p {
+.black p {
   margin: 0.5rem auto;
 }
 
@@ -179,15 +143,7 @@ section {
   margin-bottom: 4rem;
 }
 
-.content-box-mini {
-  display: flex;
-  justify-content: space-between;
-}
-
 .content-text-mini {
-  background-color: black;
-  display: flex;
-  align-items: center;
   width: 35%;
 }
 
@@ -198,8 +154,6 @@ section {
 }
 
 .content-text-mini2 {
-  display: flex;
-  align-items: center;
   width: 35%;
 }
 
@@ -208,86 +162,8 @@ section {
   margin-top: 0.1rem;
 }
 
-
 /* Footer */
 
-.footer-container {
-  background-color: black;
+footer {
   height: 5rem;
-  position: relative;
-  top: 2.32rem;
-  display: flex;
-  justify-content: center;
 }
-
-.footer-text-container {
-  display: flex;
-  align-items: center;
-  width: 960px;
-}
-
-
-
-
-
-
-
-
-
-
-/*
-section {
-  display: flex;
-  justify-content: center;
-}
-
-.content-container {
-  display: flex;
-  width: 960px;
-}
-
-.content-row1 {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.content-box {
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-  border: 4px solid black;
-}
-
-.image {
-  height: 9rem;
-  margin: 2rem auto;
-}
-
-
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* hi */
