@@ -100,17 +100,22 @@ nav a {
   color: white;
 }
 
+nav .tablet {
+  display: none;
+}
+
+
 /* Content */
 
 .content-container {
   margin-top: 3rem;
-  margin-bottom: 3rem;
 }
 
 .content-box {
   border: 4px solid black;
   flex-direction: column;
   width: 30%;
+  margin-bottom: 3rem;
 }
 
 .content-box-image {
@@ -143,7 +148,7 @@ nav a {
   margin-bottom: 4rem;
 }
 
-.content-text-mini {
+.content-text-mini, .content-text-mini2 {
   width: 35%;
 }
 
@@ -151,10 +156,6 @@ nav a {
   margin-left: 2rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
-}
-
-.content-text-mini2 {
-  width: 35%;
 }
 
 .content-text-mini2 p {
@@ -167,3 +168,67 @@ nav a {
 footer {
   height: 5rem;
 }
+
+
+/* Tablet */
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+
+  nav .desktop {
+    display: none;
+  }
+
+  nav .tablet {
+    display: flex;
+  }
+
+  .content-container {
+    flex-wrap: wrap;
+  }
+
+  .content-box {
+    width: 47%;
+  }
+}
+
+/* Mobile */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* hi */
