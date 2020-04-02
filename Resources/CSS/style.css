@@ -1,0 +1,79 @@
+html {
+  font-family: Helvetica;
+  font-size: 18px;
+  color: white;
+}
+
+.container {
+  display: flex;
+  width: 960px;
+  align-items: center;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  z-index: 999;
+  justify-content: center;
+}
+
+.logo img {
+  height: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+header span {
+  font-size: 1rem;
+  margin: 0.66rem 0 0.66rem 1rem;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* hi */
