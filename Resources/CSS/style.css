@@ -60,7 +60,6 @@ header a {
   background-size: cover;
   height: 25rem;
   width: 100%;
-
 }
 
 .hero-text-box {
@@ -146,21 +145,24 @@ nav .tablet {
 
 .content-mini {
   margin-bottom: 4rem;
+  display: flex;
+  justify-content: space-between;
 }
 
-.content-text-mini, .content-text-mini2 {
+.location, .hours {
   width: 35%;
 }
 
-.content-text-mini p {
+.hours p, .location p {
   margin-left: 2rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-.content-text-mini2 p {
+.text-black p {
   color: black;
   margin-top: 0.1rem;
+  margin-left: 0;
 }
 
 /* Footer */
@@ -170,9 +172,16 @@ footer {
 }
 
 
+
 /* Tablet */
 
+
 @media only screen and (max-width: 1024px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
   .container {
     width: 100%;
   }
@@ -196,12 +205,48 @@ footer {
 
 /* Mobile */
 
+@media only screen and (max-width: 470px) {
+  .hero {
+    height: 15rem;
+  }
 
+  .hero-text-box {
+    width: auto;
+    padding: 1rem 2rem;
+    top: 10rem;
+  }
 
+  .hero-text-box p {
+    font-size: .77rem;
+  }
 
+  .hero-text-box h1 {
+    font-size: 1rem;
+  }
 
+  .content-container {
+    justify-content: center;
+  }
 
+  .content-box {
+    width: 90%;
+  }
 
+  .content-mini {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .location, .hours {
+    width: 90%;
+  }
+
+  footer .container {
+    justify-content: center;
+  }
+
+}
 
 
 
